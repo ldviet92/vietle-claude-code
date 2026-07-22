@@ -1,0 +1,8 @@
+{
+  "name": "vietle-web",
+  "description": "Skills cho web (Next.js / host web): design system Airbnb, host-hub, frontend patterns & design.",
+  "version": "0.1.0",
+  "author": { "name": "Viet Le", "url": "https://github.com/ldviet92" },
+  "repository": "https://github.com/ldviet92/vietle-claude-code",
+  "license": "MIT"
+}

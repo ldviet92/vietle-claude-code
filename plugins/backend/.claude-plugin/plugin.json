@@ -1,0 +1,8 @@
+{
+  "name": "vietle-backend",
+  "description": "Skills cho Go backend: workflow build feature theo TDD + layered handler/service/repository.",
+  "version": "0.1.0",
+  "author": { "name": "Viet Le", "url": "https://github.com/ldviet92" },
+  "repository": "https://github.com/ldviet92/vietle-claude-code",
+  "license": "MIT"
+}

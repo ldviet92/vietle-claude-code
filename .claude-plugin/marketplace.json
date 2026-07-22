@@ -4,33 +4,36 @@
     "name": "Viet Le"
   },
   "metadata": {
-    "description": "Bộ skills Claude Code dùng chung cho team Dayladau (mobile / web / shared)."
+    "description": "Bộ skills Claude Code dùng chung cho team Dayladau — tách theo mảng: mobile, web, backend, shared."
   },
   "plugins": [
     {
-      "name": "vietle-claude-code",
-      "source": "./",
-      "description": "Skills cho mobile (React Native), web (Next.js) và quy trình chung: TDD, diagnose, planning, grilling.",
-      "author": {
-        "name": "Viet Le"
-      },
-      "homepage": "https://github.com/ldviet92/vietle-claude-code",
-      "repository": "https://github.com/ldviet92/vietle-claude-code",
-      "license": "MIT",
-      "keywords": [
-        "skills",
-        "react-native",
-        "nextjs",
-        "tdd",
-        "workflow"
-      ],
+      "name": "vietle-mobile",
+      "source": "./plugins/mobile",
+      "description": "React Native (app-host, app-guest): build màn hình, feature nhiều màn, port màn, UX mobile.",
       "category": "workflow",
-      "tags": [
-        "skills",
-        "mobile",
-        "web",
-        "tdd"
-      ]
+      "tags": ["react-native", "mobile", "screens"]
+    },
+    {
+      "name": "vietle-web",
+      "source": "./plugins/web",
+      "description": "Web (Next.js / host web): design system Airbnb, host-hub, frontend patterns & design.",
+      "category": "workflow",
+      "tags": ["web", "nextjs", "frontend", "design"]
+    },
+    {
+      "name": "vietle-backend",
+      "source": "./plugins/backend",
+      "description": "Go backend: workflow build feature theo TDD + layered handler/service/repository.",
+      "category": "workflow",
+      "tags": ["backend", "go", "tdd"]
+    },
+    {
+      "name": "vietle-shared",
+      "source": "./plugins/shared",
+      "description": "Dùng chung mọi mảng: TDD, diagnose bug, grilling kế hoạch, zoom-out context.",
+      "category": "workflow",
+      "tags": ["tdd", "diagnose", "planning"]
     }
   ]
 }

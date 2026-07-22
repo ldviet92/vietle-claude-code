@@ -1,0 +1,8 @@
+{
+  "name": "vietle-shared",
+  "description": "Skills dùng chung mọi mảng: TDD, diagnose bug, grilling kế hoạch, zoom-out context.",
+  "version": "0.1.0",
+  "author": { "name": "Viet Le", "url": "https://github.com/ldviet92" },
+  "repository": "https://github.com/ldviet92/vietle-claude-code",
+  "license": "MIT"
+}

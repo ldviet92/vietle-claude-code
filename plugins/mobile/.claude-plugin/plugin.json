@@ -1,0 +1,8 @@
+{
+  "name": "vietle-mobile",
+  "description": "Skills cho app React Native (app-host, app-guest): build màn hình, feature nhiều màn, port màn, UX mobile.",
+  "version": "0.1.0",
+  "author": { "name": "Viet Le", "url": "https://github.com/ldviet92" },
+  "repository": "https://github.com/ldviet92/vietle-claude-code",
+  "license": "MIT"
+}
