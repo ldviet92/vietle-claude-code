@@ -1,0 +1,36 @@
+{
+  "name": "vietle-claude-code",
+  "owner": {
+    "name": "Viet Le"
+  },
+  "metadata": {
+    "description": "Bộ skills Claude Code dùng chung cho team Dayladau (mobile / web / shared)."
+  },
+  "plugins": [
+    {
+      "name": "vietle-claude-code",
+      "source": "./",
+      "description": "Skills cho mobile (React Native), web (Next.js) và quy trình chung: TDD, diagnose, planning, grilling.",
+      "author": {
+        "name": "Viet Le"
+      },
+      "homepage": "https://github.com/ldviet92/vietle-claude-code",
+      "repository": "https://github.com/ldviet92/vietle-claude-code",
+      "license": "MIT",
+      "keywords": [
+        "skills",
+        "react-native",
+        "nextjs",
+        "tdd",
+        "workflow"
+      ],
+      "category": "workflow",
+      "tags": [
+        "skills",
+        "mobile",
+        "web",
+        "tdd"
+      ]
+    }
+  ]
+}
