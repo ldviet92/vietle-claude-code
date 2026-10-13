@@ -61,6 +61,15 @@ Cập nhật khi repo có thay đổi:
 | `grill-with-docs` | Stress-test kế hoạch với domain model, cập nhật CONTEXT.md / ADR |
 | `zoom-out` | Cần bức tranh lớn / context cao hơn cho một vùng code lạ |
 
+## Luật làm việc (CLAUDE.md)
+
+Thư mục `rules/` chứa bộ luật mẫu cho Claude Code — không cài qua `/plugin`, chép tay vào đúng chỗ:
+
+| File | Chép vào | Nội dung |
+|---|---|---|
+| `rules/global/CLAUDE.md` | `~/.claude/CLAUDE.md` | Luật chung: chỉ làm khi được bật đèn xanh, không đọc ra ngoài thư mục khi chưa hỏi, mở đầu bằng tóm tắt, hiểu bản chất trước khi làm |
+| `rules/backend/CLAUDE.md` | `CLAUDE.md` ở gốc repo backend | Workflow backend: discuss → TDD → coding-standards → check hiệu năng → review; luật git `dev`/`master`; phân tầng, mỗi bảng một chủ |
+
 ## Thêm skill mới
 
 1. Vào plugin đúng mảng, tạo `plugins/<mảng>/skills/<tên-skill>/SKILL.md`:
